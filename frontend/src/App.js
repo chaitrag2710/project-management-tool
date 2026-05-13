@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "https://project-management-tool-os2t.onrender.com/api/users/login";
+const API = "https://project-management-tool-os2t.onrender.com";
 
 function App() {
   const [page, setPage] = useState("login");
